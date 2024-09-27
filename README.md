@@ -28,7 +28,7 @@ This project provides a script to convert Google Fonts or other external font pr
 
 ## Installation
 
-Clone the repository to your local machine:
+Clone the repository on the local machine:
 
 ```sh
 git clone https://github.com/trentapple/self-host-external-font-provider.git
@@ -36,7 +36,7 @@ cd self-host-external-font-provider
 chmod u+x ./convert.sh
 ```
 
-*Ensure you have curl installed on your system. If not, install it using your package manager.*
+*Ensure the execution environment has `curl` installed. If not, install it using the system package manager (such as `sudo apt install -y curl` on Debian flavors).*
 
 ## Usage
 
@@ -56,7 +56,8 @@ Run the script with the path to your HTML file (*Note:* Please backup important 
 * Update your HTML file to reference the downloaded font files.
 
 ## Example
-* Given an HTML file index.html with the following Google Fonts link:
+
+Given an HTML file index.html with the following Google Fonts link:
 
 ```
 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
