@@ -1,6 +1,6 @@
 # Self-Host External Font Provider
 
-Convert from Google Fonts to locally self-hosted font files (see [awesome-privacy](https://github.com/Lissy93/awesome-privacy)).
+Convert from Google Fonts to locally self-hosted font files (see [pluja/awesome-privacy#fonts](https://github.com/pluja/awesome-privacy#fonts)).
 
 *Please ensure the license terms for the font allows this before proceeding.* (*_TINLA_*)
 
