@@ -40,19 +40,22 @@ chmod u+x ./convert.sh
 
 ## Usage
 
-Run the script with the path to your HTML file:
+Run the script with the path to your HTML file (*Note:* Please backup important files first):
 
+```
 ./convert.sh path/to/your/file.html [/optional/font/directory]
-path/to/your/file.html: The HTML file containing the Google Fonts link.
-/optional/font/directory: (Optional) Directory to save the fonts. Defaults to a fonts directory relative to the HTML file.
+```
 
+* `path/to/your/file.html`: The HTML file containing the Google Fonts link.
+* `/optional/font/directory`: (Optional) Directory to save the fonts. Defaults to a fonts directory relative to the HTML file.
 
-#### The script will:
+### Explanation of steps:
 
-* Detect the Google Fonts URL in your HTML file.
+* Detect the Google Fonts URL in your HTML file. (**Please do yourself a favor and back up all files _before_ proceeding with running any scripts!**)
 * Download the necessary font files.
-Update your HTML file to reference the downloaded font files.
-Example
+* Update your HTML file to reference the downloaded font files.
+
+## Example
 * Given an HTML file index.html with the following Google Fonts link:
 
 ```
@@ -62,7 +65,8 @@ Example
 #### Run the script:
 
 `./convert.sh index.html`
-The script will:
+
+#### The script will:
 
 * Create a fonts directory (relative to the path of index.html) if it does not already exist
 * Download the Roboto font files.
